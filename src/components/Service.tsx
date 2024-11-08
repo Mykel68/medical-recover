@@ -39,7 +39,7 @@ export default function Component() {
     ]
 
     return (
-        <div className=" mx-auto px-4 xl:px-48 py-12 bg-cyan-50">
+        <div className=" mx-auto px-4 lg:px-24 py-12 bg-cyan-50">
             <div className="mb-12">
                 <p className="text-red-500 font-semibold mb-2">Practice Advice</p>
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Department</h2>

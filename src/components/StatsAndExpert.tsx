@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 
 export default function Component() {
     return (
-        <div className="mx-auto px-4 lg:px-24 xl:px-48 py-12">
+        <div className="mx-auto px-4 lg:px-24  py-12">
             <div className="grid grid-cols-2 md:grid-cols-4 place-content-between mb-16 text-center">
                 {[
                     { value: 15000, label: "Happy Customers", suffix: "K" },
@@ -15,7 +15,7 @@ export default function Component() {
                     { value: 100, label: "Top Partners", suffix: "+" },
                 ].map((stat, index) => (
                     <div key={index}>
-                        <h2 className="text-4xl font-bold text-red-500 mb-2">
+                        <h2 className="text-2xl md:text-4xl  font-bold text-red-500 mb-2">
                             <CountUp
                                 end={stat.value}
                                 duration={2.5}

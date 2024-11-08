@@ -27,7 +27,7 @@ export default function Component() {
     ]
 
     return (
-        <div className=" mx-auto px-4 xl:px-48 py-16">
+        <div className=" mx-auto px-4 lg:px-24 py-16">
             <div className="text-start mb-16">
                 <p className="text-red-500 font-semibold mb-2">Practice Advice</p>
                 <h2 className="text-4xl font-bold text-gray-800 mb-4">Leading Medicine</h2>

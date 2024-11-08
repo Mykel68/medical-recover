@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 export default function Header() {
     return (
         <header className="bg-white border-b">
-            <div className=" mx-auto px-4 xl:px-48">
+            <div className=" mx-auto px-4 lg:px-24">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">
                         <a href="/" className="text-xl font-bold text-gray-900">

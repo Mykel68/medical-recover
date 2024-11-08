@@ -29,7 +29,7 @@ export default function TeamSection() {
     ]
 
     return (
-        <section className="py-16 px-4 xl:px-48">
+        <section className="py-16 px-4 lg:px-24">
             <div className="max-w-6xl mx-auto">
                 <div className="item-start flex flex-col ">
                     <p className="text-red-500 font-semibold mb-2">Team</p>

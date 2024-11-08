@@ -4,7 +4,7 @@ import HeroImage from "@/assets/hero.svg"
 
 export default function Component() {
     return (
-        <div className=" mx-auto px-4 lg:px-24 xl:px-48 py-8 bg-[#FAFAFA]">
+        <div className=" mx-auto px-4 lg:px-24  py-8 bg-[#FAFAFA]">
             <div className="flex flex-col lg:flex-row items-center justify-between mb-12 ">
                 <div className="lg:w-3/4 mb-8 lg:mb-0">
                     <p className="text-red-500 font-semibold mb-2">Join Us</p>
@@ -18,7 +18,7 @@ export default function Component() {
                         <button className="bg-red-500 text-white text-xs md:text-lg px-6 py-2 rounded-full hover:bg-red-600 transition duration-300">
                             Get Quote Now
                         </button>
-                        <button className="border border-gray-300 text-gray-700 text-xs md:text-lg px-6 py-2 rounded-full hover:bg-gray-100 transition duration-300">
+                        <button className="border border-slate-700 text-gray-700 text-xs md:text-lg px-6 py-2 rounded-full hover:bg-gray-100 transition duration-300">
                             Learn More
                         </button>
                     </div>
